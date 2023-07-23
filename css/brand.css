@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #0000009e !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.moblogo{
+    display: none;
+}
+@media(max-width: 768px){
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: #fbaa19 !important;
+    }
+}
+
+.box{
+    position: relative;
+    font-family: "Helvetica";
+}
+@media(max-width: 600px){
+    .banner-margin {
+        margin-top: 16%;
+    }
+}
+@media(max-width: 600px){
+    .desk-banner {
+        display: none !important;
+    }
+}
+
+.mob-banner{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .mob-banner {
+        display: block !important;
+    }
+}
+
+.img-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0%;
+    right: 0;
+    top: 45%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.brandline{
+    font-size: 80px;
+    font-family: prague;
+}
+
+@media(max-width:600px){
+    .img-title{
+        text-align: center;
+        margin-right: 0%;
+    }
+}
+
+@media(max-width:600px){
+    .brandline{
+        font-size: 50px !important;
+    }
+}
+
+.row{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.brands-logos{
+    padding: 5%;
+}
+
+@media(max-width: 600px){
+    .row{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+footer{
+    background: #020306f0;
+    padding: 50px;
+    color: #ffff;
+    margin-top: 40px;
+}
+
+footer .h2{
+    font-family: 'prague';
+    font-size: 2rem;
+    line-height: 50px;
+}
+footer .p{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+footer .foot-add{
+    padding: 15px;
+}
+.footer2{
+    background-color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text2{
+    font-size: 13px;
+    color: white;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0rem;
+
+}
+
